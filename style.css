@@ -3,7 +3,8 @@ body {
   font-family: Arial, sans-serif;         /* Police propre */
   background-image: url(assets/5f631387-4e51-41de-82b9-a307903ffd3d.jpeg); /* Fond de la page  */
   background-size: cover;              /*Couvrir le fond sur tt la page*/
-  padding: 20px;                          /* Espace intérieur */
+  padding: 20px;/* Espace intérieur */
+  color: white;
 }
 .logo{
   width: 10%;
