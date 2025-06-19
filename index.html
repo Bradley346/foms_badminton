@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers le fichier CSS externe -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription Compétition FBBA</title>
+    <!-- Lien vers le fichier CSS externe -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--loge de Fbba-->
+    <img src="assets/fbba_logo.png" alt="Federation Beninoise de Badminton" class="logo">
+
+    <!-- Titre du formulaire -->
+    <h2>Formulaire d'inscription - Compétition FBBA 2025</h2>
+
+    <!-- Début du formulaire -->
+    <form action="https://getform.io/f/bnlxjmzb" method="post" autocomplete="on">
+
+        <!-- Champ pour le nom -->
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" placeholder="Ex : Yao" required>
+
+        <!-- Champ pour le prénom -->
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" placeholder="Ex : Koffi" required>
+
+        <!-- Liste déroulante pour le sexe -->
+        <label for="sexe">Sexe :</label>
+        <select id="sexe" name="sexe" required>
+            <option value="">--Choisir--</option>
+            <option value="masculin">Masculin</option>
+            <option value="féminin">Féminin</option>
+            <option value="autre">Autre</option>
+        </select>
+
+        <!-- Liste déroulante pour la catégorie d'âge -->
+        <label for="categorie">Catégorie :</label>
+        <select id="categorie" name="categorie" required>
+            <option value="">--Choisir--</option>
+            <option value="U15">U15</option>
+            <option value="U17">U17</option>
+            <option value="senior">Sénior</option>
+        </select>
+
+        <!-- Cases à cocher pour les catégories de match -->
+        <fieldset>
+            <legend>Catégorie de match :</legend>
+
+            <!-- Checkbox pour match simple -->
+            <label>
+                <input type="checkbox" name="categorie_match[]" value="simple">
+                Simple
+            </label><br>
+
+            <!-- Checkbox pour match double -->
+            <label>
+                <input type="checkbox" name="categorie_match[]" value="double">
+                Double
+            </label><br>
+
+            <!-- Checkbox pour match mixte -->
+            <label>
+                <input type="checkbox" name="categorie_match[]" value="mixte">
+                Mixte
+            </label>
+        </fieldset>
+
+        <!-- Bouton de soumission -->
+        <br><br>
+        <input type="submit" value="S'inscrire">
+
+    </form>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2025 Fédération Béninoise de Badminton (FBBA). Tous droits réservés.</p>
+        <p>Contact : fbba.benin@gmail.com | Tél : +229 97 00 00 00</p>
+    </footer>
+
+</body>
+
+</html>
