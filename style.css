@@ -1,0 +1,89 @@
+/* Style général du corps de la page */
+body {
+  font-family: Arial, sans-serif;         /* Police propre */
+  background-image: url(assets/5f631387-4e51-41de-82b9-a307903ffd3d.jpeg); /* Fond de la page  */
+  background-size: cover;              /*Couvrir le fond sur tt la page*/
+  padding: 20px;                          /* Espace intérieur */
+}
+.logo{
+  width: 10%;
+  height: auto;
+}
+
+/* Titre centré */
+h2 {
+  text-align: center;
+  color:antiquewhite;
+}
+
+/* Conteneur du formulaire */
+form {
+  background: linear-gradient(30deg ,#AE2830,black) ;
+  opacity: 0.85;              /* Fond blanc du formulaire */
+  max-width: 800px;                      /* Largeur maximale */
+  margin: auto;                          /* Centrage horizontal */
+  padding: 25px;
+  border-radius: 30px;                   /* Coins arrondis */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  
+}
+
+/* Labels des champs */
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* Champs de texte et menus déroulants */
+input[type="text"],
+select {
+  width: 100%;                           /* Pleine largeur */
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;                /* Inclut le padding dans la largeur */
+}
+
+/* Bouton de soumission */
+input[type="submit"] {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;             /* Vert */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Effet au survol du bouton */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style du groupe de cases à cocher */
+fieldset {
+  border: none;                          /* Pas de bordure */
+  margin-top: 15px;
+  padding: 0;
+}
+
+/* Titre du groupe de cases à cocher */
+legend {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Pied de page */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 8px;
+}
