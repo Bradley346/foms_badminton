@@ -4,7 +4,7 @@ body {
   background-image: url(assets/5f631387-4e51-41de-82b9-a307903ffd3d.jpeg); /* Fond de la page  */
   background-size: cover;              /*Couvrir le fond sur tt la page*/
   padding: 20px;/* Espace intérieur */
-  color: white;
+  
 }
 .logo{
   width: 10%;
@@ -26,6 +26,7 @@ form {
   padding: 25px;
   border-radius: 30px;                   /* Coins arrondis */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  color:white;
   
 }
 
